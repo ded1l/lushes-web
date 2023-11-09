@@ -54,7 +54,7 @@ nav ul li button{
 }
 /* background img show fit the whole screen using position  */
 .opening-content  {
-    background-image: url('/assets/pics/image\ 1.png');
+    background-image: url('/assets/pics/image\ 1\).jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -206,7 +206,7 @@ div.cards div{
 
 }
 div.cards div.one div.img{
-    background-image: url('/assets/pics/pic1.png');
+    background-image: url('/assets/pics/Rectangle\ 11\).jpg');
  
 }
 div.cards div.two div.img{
@@ -281,9 +281,9 @@ div.container  h1{
     max-width: 1000px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5px;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    gap: 10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     object-fit: cover;
     }
     
@@ -291,12 +291,13 @@ div.container  h1{
   grid-row: 1/3;
   width: 90%;
   height: 90%;
+  gap: 10px;
   object-fit: cover;
    }
    .sub{
-    gap: 0px;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    gap: 10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     border:none;
     border-radius: 8px;
    
